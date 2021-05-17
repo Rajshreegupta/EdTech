@@ -7,7 +7,7 @@
 }
 
 .card:hover{
-    transform: scale(1.15);
+    transform: scale(1.1);
     transition-duration: 1000ms;
 }
 
@@ -166,3 +166,5 @@ h1{
     background-color: chartreuse;
     border-color: chartreuse;
 }
+
+
