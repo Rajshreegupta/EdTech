@@ -6,8 +6,17 @@
     border-radius: 10px;
 }
 
+.card:hover{
+    transform: scale(1.15);
+    transition-duration: 1000ms;
+}
+
 .card-title{
     color: chartreuse;
+}
+
+.card img{
+    border-radius: 10px;
 }
 
 
@@ -53,6 +62,10 @@
     /* font-weight: 900; */
 }
 
+.clicking{
+    background-color: chartreuse;
+}
+
 .inner-container .col{
     /* border: 1px black solid; */
     margin: 10px;
@@ -68,6 +81,11 @@
     height: 80px;
     width: 130px;
     border-radius: 5px;
+}
+
+.inner-container .row .col img:hover{
+    transform: scale(1.15);
+    transition-duration: 1000ms;
 }
 
 
@@ -144,3 +162,7 @@ h1{
     font-size: 50px;
 }
 
+.btn{
+    background-color: chartreuse;
+    border-color: chartreuse;
+}
