@@ -2,7 +2,14 @@
 .card{
     margin: 40px 40px 40px 40px;
     display:inline-block;
+    border: 2px solid chartreuse;
+    border-radius: 10px;
 }
+
+.card-title{
+    color: chartreuse;
+}
+
 
 .card-img-top{
     width: 300px auto;
